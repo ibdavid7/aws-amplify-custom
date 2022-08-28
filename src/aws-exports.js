@@ -1,7 +1,7 @@
 const awsconfig = {
   Auth: {
     region: "us-east-1",
-    userPoolId: process.env.REACT_USER_POOL_ID,
+    userPoolId: process.env.REACT_APP_USER_POOL_ID,
     userPoolWebClientId: process.env.REACT_APP_CLIENT_ID,
   },
   API: {
@@ -9,7 +9,7 @@ const awsconfig = {
       {
         name: "demo",
         endpoint:
-          process.env.APPI_ENDPOINT,
+          process.env.REACT_APP_API_ENDPOINT,
       },
     ],
   },
