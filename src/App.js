@@ -9,6 +9,7 @@ Amplify.configure(awsconfig);
 
 function App() {
   console.log('test');
+  console.log(process.env);
   const [apiData, setApiData] = React.useState("");
 
   const handleClick = async () => {
