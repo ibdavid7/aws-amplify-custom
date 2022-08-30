@@ -20,7 +20,9 @@
 
 # AWS
 /src/aws-exports.js
+scratchpad.js
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
